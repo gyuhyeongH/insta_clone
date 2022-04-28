@@ -138,7 +138,114 @@
             color: rgba(0, 0, 0, 5);
         }
 
-        footer {
+        .post {
+            width: 100%;
+            height: auto;
+            background: #fff;
+            border: 1px solo #dfdfdf;
+            margin-top: 40px;
+        }
+
+        .info {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .info .username {
+            width: auto;
+            font-weight: bold;
+            color: black;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .material-icons option {
+            height: 10px;
+            cursor: pointer;
+        }
+
+        .info .user {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile img {
+            height: 40px;
+            width: 40px;
+            padding: 0;
+            border-radius: 1rem;
+        }
+
+        .post-pic img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 0rem;
+        }
+
+        .post-content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .likes {
+            font-weight: bold;
+        }
+
+        .discription {
+            margin: 10px 0;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        h4 {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .time {
+            color: rgba(44, 41, 41, 0.938);
+            font-size: 12px;
+        }
+
+        .comment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            border-radius: 1px solid #dfdfdf;
+        }
+
+        .comment .material-icons {
+            height: 30px;
+        }
+
+        .comment-box {
+            width: 80%;
+            height: 100%;
+            border: none;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .comment-btn {
+            width: 70px;
+            height: 100%;
+            background: none;
+            border: none;
+            outline: none;
+            text-transform: capitalize;
+            font-size: 16px;
+            color: rgb(24, 100, 133);
+            opacity: 0.5;
+        }
+
+            footer {
             height:20px;
             width: 100%;
             border-top: 1px solid #dfdfdf;
@@ -203,8 +310,38 @@
                 <p class="username">황ㅇㅇ</p>
             </div>
             </div>
+            <div class="post">
+            <div class="info">
+                        <div class="user">
+                            <div class="profile"><img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAyMTdfMzkg/MDAxNDg3MzEyMTgxNDQz.aJoisDHrv1Hf-8CNjG08pXc4101oJ5QyXSrfs9BhFbMg.j3s70ybCD2siOuue7g0v2oUHEhMs3maIfw9Y9C7Wzhcg.JPEG.fly5885/10_%EA%B7%80%EC%97%BD%EA%B3%A0%EC%9B%83%EA%B8%B4%EA%B3%A0%EC%96%91%EC%9D%B4%EC%82%AC%EC%A7%84_%281%29.jpg?type=w800"
+                                    alt=""></div>
+                            <p class="username">황모씨</p>
+                        </div>
+                        <span class="material-icons option">pendingn</span>
+                    </div>
 
+            <div class="post-pic"><img src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/4arX/image/rZ1xSXKCJ4cd-IExOYahRWdrqoo.jpg" alt=""></div>
+            <div class="post-content">
+
+                        <div class="reaction">
+                            <span class="material-icons">favorite</span>
+                            <span class="material-icons">comment</span>
+                            <span class="material-icons">send</span>
+                            <div class="save"><span class="material-icons">save</span></div>
+                        </div>
+                        <p class="likes">3,765 Likes</p>
+                        <p class="discription">
+                        <h4>김ㅇㅇ</h4>고양이 보고 힐링이라도 해야지</p>
+                        <p class="time">3 minutes ago</p>
+                    </div>
+            <div class="comment">
+                        <span class="material-icons">mood</span>
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">Post</button>
+                    </div>
         </div>
+        </div>
+
         <div class="right">
             aa
         </div>
